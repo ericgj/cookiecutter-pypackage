@@ -1,8 +1,7 @@
 ericgj/cookiecutter-pypackage
 =============================
 
-This is a fork of 
-[cookiecutter-pypackage-minimal][](https://github.com/kragniz/cookiecutter-pypackage-minimal). 
+This is a fork of [cookiecutter-pypackage-minimal][original]. 
 For basic explanation of usage and design opinions, see the original.
 
 This cookiecutter template adds the following, optimized for my use:
@@ -14,4 +13,6 @@ This cookiecutter template adds the following, optimized for my use:
   - Testing assumes use of hypothesis
   - Post-gen hook to install development environment, initial git commit
   - Run black as git pre-commit hook
+
+[original]: https://github.com/kragniz/cookiecutter-pypackage-minimal
 
