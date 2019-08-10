@@ -1,13 +1,14 @@
 {
-    "author_name": "Louis Taylor",
-    "author_email": "louis@kragniz.eu",
+    "author_name": "Eric Gjertsen",
+    "author_email": "ericgj72@gmail.com",
+    "author_user": "ericgj",
 
-    "package_name": "cookiecutter_pypackage_minimal",
+    "package_name": "my-package",
     "package_version": "0.1.0",
-    "package_description": "An opinionated, minimal cookiecutter template for Python packages",
-    "package_url": "https://github.com/borntyping/cookiecutter-pypackage-minimal",
+    "package_description": "Describe the package",
+    "package_url": "https://github.com/{{ cookiecutter.author_user }}/{{ cookiecutter.package_name }}",
     
     "readme_pypi_badge": true,
-    "readme_travis_badge": true,
-    "readme_travis_url": "https://travis-ci.org/borntyping/cookiecutter-pypackage-minimal"
+    "readme_travis_badge": false,
+    "readme_travis_url": "https://travis-ci.org/{{ cookiecutter.author_user }}/{{ cookiecutter.package_name }}"
 }

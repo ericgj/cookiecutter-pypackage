@@ -10,7 +10,6 @@ dist
 build
 eggs
 parts
-bin
 var
 sdist
 develop-eggs
@@ -26,11 +25,9 @@ pip-log.txt
 .coverage
 .tox
 nosetests.xml
+.pytest_cache
+.hypothesis
 
-# Translations
-*.mo
+# Virtualenv
+.env
 
-# Mr Developer
-.mr.developer.cfg
-.project
-.pydevproject

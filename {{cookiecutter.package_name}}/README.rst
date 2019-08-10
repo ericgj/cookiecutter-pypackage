@@ -15,22 +15,13 @@
 
 {{ cookiecutter.package_description }}
 
+Quickstart
+----------
+
 Usage
 -----
 
-Installation
-------------
-
-Requirements
-^^^^^^^^^^^^
-
-Compatibility
--------------
-
-Licence
+Contact
 -------
 
-Authors
--------
-
-`{{ cookiecutter.package_name }}` was written by `{{ cookiecutter.author_name }} <{{ cookiecutter.author_email }}>`_.
+`{{ cookiecutter.author_name }} <{{ cookiecutter.author_email }}>`
