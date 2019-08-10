@@ -5,6 +5,7 @@ import re
 from setuptools import find_packages
 from setuptools import setup
 
+from {{ cookiecutter.package_module_name }} import __version__
 
 def read(filename):
     filename = os.path.join(os.path.dirname(__file__), filename)
@@ -15,7 +16,7 @@ def read(filename):
 
 setup(
     name="{{ cookiecutter.package_name }}",
-    version="{{ cookiecutter.package_version }}",
+    version=__version__,
     url="{{ cookiecutter.package_url }}",
     license="MIT",
     author="{{ cookiecutter.author_name }}",
