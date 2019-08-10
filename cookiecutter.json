@@ -4,6 +4,7 @@
     "author_user": "ericgj",
 
     "package_name": "my-package",
+    "package_module_name": "{{ cookiecutter.package_name|replace('-','_') }}",
     "package_version": "0.0.1",
     "package_description": "Describe the package",
     "package_url": "https://github.com/{{ cookiecutter.author_user }}/{{ cookiecutter.package_name }}",
