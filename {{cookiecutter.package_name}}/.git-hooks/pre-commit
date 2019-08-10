@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-. .env/bin/activate && black --exclude .env .
+. .env/bin/activate && black --exclude "/(.env|.tox)/" .
 if [[ $(git diff HEAD) ]]; then
     exit 0
 else
