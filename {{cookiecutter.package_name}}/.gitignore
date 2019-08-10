@@ -28,6 +28,9 @@ nosetests.xml
 .pytest_cache
 .hypothesis
 
-# Virtualenv
+# virtualenv
 .env
+
+# git hooks
+.git-hooks
 

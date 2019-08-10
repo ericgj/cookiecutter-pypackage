@@ -1,0 +1,10 @@
+#!/usr/bin/env bash
+
+. .env/bin/activate && black --exclude .env .
+if [[ $(git diff HEAD) ]]; then
+    exit 0
+else
+    echo "No changes" >&2
+    exit 1
+fi
+
